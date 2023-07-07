@@ -1,4 +1,4 @@
-import { Address, beginCell, Cell, Contract, contractAddress, ContractProvider, Dictionary, DictionaryValue, internal, loadMessageRelaxed, MessageRelaxed, Sender, SendMode, storeMessageRelaxed } from "ton-core";
+import { Address, beginCell, Cell, Contract, contractAddress, ContractProvider, Dictionary, DictionaryValue, internal, loadMessageRelaxed, MessageRelaxed, Sender, SendMode, storeMessageRelaxed } from "@ton/core";
 import { KeyPair, sign } from "ton-crypto";
 import { Maybe } from "../utils/maybe";
 
