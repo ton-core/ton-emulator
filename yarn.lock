@@ -742,6 +742,13 @@
   dependencies:
     defer-to-connect "^2.0.1"
 
+"@ton/core@>=0.49.1":
+  version "0.49.1"
+  resolved "https://registry.yarnpkg.com/@ton/core/-/core-0.49.1.tgz#3a06c877bc902b6afcf9fedeee36785596d2ab91"
+  integrity sha512-FotDHvCNk8thP84GiMlspFkzWa7WJSNIHS+MdmzuMQ7wzYFEGjRrO4FKZD+6Gx2/OH68AyKiXfIhVZItPbFU/Q==
+  dependencies:
+    symbol.inspect "1.0.1"
+
 "@tootallnate/once@1":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"
@@ -3959,13 +3966,6 @@ toidentifier@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/toidentifier/-/toidentifier-1.0.1.tgz#3be34321a88a820ed1bd80dfaa33e479fbb8dd35"
   integrity sha512-o5sSPKEkg/DIQNmH43V0/uerLrpzVedkUh8tGNvaeXpfpuwjKenlSox/2O/BTlZUtEe+JG7s5YhEz608PlAHRA==
-
-ton-core@>=0.47.0:
-  version "0.47.0"
-  resolved "https://registry.yarnpkg.com/ton-core/-/ton-core-0.47.0.tgz#1ce90a1abe3f05d0651e95962f2b9fdbd1b4e13c"
-  integrity sha512-v5JEhJG/EYtKaI8PtmV5lXAIveSK+Bb+yyukRFmUpJ1Y9YmkvBowZ1n4lubKCSDhlQy8JO7M5VKA5fj15qZjwQ==
-  dependencies:
-    symbol.inspect "1.0.1"
 
 ton-crypto-primitives@2.0.0:
   version "2.0.0"

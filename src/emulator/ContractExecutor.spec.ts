@@ -1,4 +1,4 @@
-import { beginCell, Cell, toNano } from "ton-core";
+import { beginCell, Cell, toNano } from "@ton/core";
 import { testAddress } from "../utils/testAddress";
 import { ContractExecutor } from "./ContractExecutor";
 import { ContractSystem } from "./ContractSystem";
