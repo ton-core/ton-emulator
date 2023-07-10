@@ -11,7 +11,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Switched from `ton-core` to `@ton/core`
 - Migrated to new github organization and changed repository name to `@ton/ton-enmulator`
 
-
 ## [2.1.1] - 2023-02-02
 
 ## Changed
