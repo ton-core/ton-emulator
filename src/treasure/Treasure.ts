@@ -1,4 +1,4 @@
-import { Address, beginCell, Cell, Contract, contractAddress, ContractProvider, Dictionary, DictionaryValue, internal, loadMessageRelaxed, MessageRelaxed, Sender, SendMode, storeMessageRelaxed } from "ton-core";
+import { Address, beginCell, Cell, Contract, contractAddress, ContractProvider, Dictionary, DictionaryValue, internal, loadMessageRelaxed, MessageRelaxed, Sender, SendMode, storeMessageRelaxed } from "@ton/core";
 import { KeyPair, sign } from "ton-crypto";
 import { Maybe } from "../utils/maybe";
 
@@ -82,7 +82,7 @@ export class TreasureContract implements Contract {
     }) {
 
         // Resolve send mode
-        let sendMode = SendMode.PAY_GAS_SEPARATLY;
+        let sendMode = SendMode.PAY_GAS_SEPARATELY;
         if (args.sendMode !== null && args.sendMode !== undefined) {
             sendMode = args.sendMode;
         }
