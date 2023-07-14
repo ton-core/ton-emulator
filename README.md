@@ -49,6 +49,9 @@ expect(tracker.collect()).toMatchSnapshot();
 
 ```
 
+## Acknowledgements
+This library is developed and maintained by the [Whales Corp.](https://tonwhales.com/).
+
 ## License
 
 MIT
