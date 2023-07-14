@@ -1,5 +1,5 @@
 {
-  "name": "@ton/ton-emulator",
+  "name": "@ton/emulator",
   "version": "2.1.3",
   "main": "dist/index.js",
   "repository": "https://github.com/ton-org/ton-emulator.git",
