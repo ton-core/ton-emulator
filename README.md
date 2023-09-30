@@ -1,4 +1,12 @@
 # TON Emulator
+## 🚨 Repository Deprecated and Moved! 🚨
+
+**This repository has been deprecated and is no longer actively maintained.** We have moved our project to a new repository, which you can find here: [ton-org/ton-emulator](https://github.com/ton-org/ton-emulator). The new NPM package is available here: [@ton/emulator](https://www.npmjs.com/package/@ton/emulator)
+
+Please make sure to update your bookmarks and star the new repository to stay up-to-date with the latest developments and updates. This repository will be archived and eventually removed.
+
+**Thank you for your continued support!**
+___________
 
 Emulation toolkit for TON Smart Contracts
 
