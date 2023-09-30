@@ -5,13 +5,13 @@ Emulation toolkit for TON Smart Contracts
 ## Installation
 
 ```bash
-yarn add ton-emulator @ton/core ton-crypto
+yarn add @ton/emulator @ton/core ton-crypto
 ```
 
 ## Usage
 
 ```typescript
-import { ContractSystem } from 'ton-emulator';
+import { ContractSystem } from '@ton/emulator';
 
 // Contract System is a virtual environment that emulates the TON blockchain
 const system = await ContractSystem.create();
